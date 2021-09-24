@@ -8,114 +8,114 @@ Scrivete la struttura della tabella "auto" con le varie proprietà, tipi di dato
 
 
 
-auto
-
-make
-model  
-variant 
-body_type 
-first_registration 
-price 
-fuel_type 
-mileage 
-power type
-gear
-nr_of_doors 
-nr_of_seats
-vehicle_condition 
-body_color
-paintwork
-interior_color
-upholstery
-previous_owners
-had_accident
-guarantee
-service_history
-non_smoking_vehicle
-euro_emission_class
-particulate_filter
-description-
+auto:
 
 
+id - INT - PRIMARY KEY(NOT_NUL,UNIQUE, AUTO_INCREMENT)
+make - VARCHAR(50)- NOTNULL
+model - VARCHAR(50)- NOTNULL NOTNULL  
+variant - VARCHAR(50)- NULL 
+body_type - NULL 
+first_registration - NULL 
+price - NULL 
+fuel_type - NOTNULL
+mileage - NULL 
+power type - NULL
+gear - NULL
+nr_of_doors - NOTNULL
+nr_of_seats - NULL
+vehicle_condition - NOTNULL
+body_color - NULL
+paintwork - NULL
+interior_color - NULL
+upholstery - NULL
+previous_owners - NULL
+had_accident - NULL
+guarantee - NOTNULL
+service_history - NOTNULL
+non_smoking_vehicle - NULL
+euro_emission_class - NOTNULL
+particulate_filter - NULL
+description - NOTNULL
                equipment 
-4wd-
-abs-
-Adaptive Cruise Control
-Adaptive headlights
-Air conditioning
-Air suspension
-Alarm system
-Alloy wheels
-Android Auto
-Apple CarPlay
-Armrest
-Automatic climate control
-Auxiliary heating
-Blind spot monitor
-Bluetooth
-CD player
-Central door lock
-Cruise control
-Daytime running lights
-Digital radio
-Disabled accessible
-Driver drowsiness detection
-Driver-side airbag
-Electric tailgate
-Electrical side mirrors
-Electrically adjustable seats
-Electrically heated windshield
-Electronic stability control
-Emergency brake assistant
-Emergency system
-Fog lights
-Hands-free equipment
-Heads-up display
-Heated steering wheel
-Hill Holder
-Immobilizer
-Isofix
-Keyless central door lock
-Lane departure warning system
-Leather steering wheel
-LED Daytime Running Lights
-LED Headlights
-Light sensor
-Lumbar support
-Massage seats
-MP3
-Multi-function steering wheel
-Navigation system
-Night view assist
-On-board computer
-Panorama roof
-Parking assist system camera
-Parking assist system self-steering
-Parking assist system sensors front
-Parking assist system sensors rear
-Passenger-side airbag
-Power steering
-Power windows
-Radio
-Rain sensor
+4wd - NULL
+abs - NULL
+adaptive_cruise_control
+adaptive_headlights
+air_conditioning
+air_rsuspension
+alarm_system
+alloy_wheels
+android_auto
+apple_carPlay
+armrest
+automatic_climate_control
+auxiliary_heating
+blind_spot_monitor
+bluetooth
+CD_player
+central_door_lock
+cruise_control
+daytime_running_lights
+digital_radio
+disabled_accessible
+driver_drowsiness_detection
+driver_side_airbag
+electric_tailgate
+electrical_side_mirrors
+electrically_adjustable_seats
+electrically_heated_windshield
+electronic_stability_control
+emergency_brake_assistant
+emergency_system
+fog_lights
+hands_free_equipment
+heads_up_display
+heated_steering_wheel
+hill_holder
+immobilizer
+isofix
+keyless_central_door_lock
+lane_departure_warning_system
+leather_steering_wheel
+led_daytime_running_lights
+led_headlights
+light_sensor
+lumbar_support
+massage_seats
+mp3
+multi_function_steering_wheel
+navigation_system
+night_view_assist
+on_board_computer
+panorama_roof
+parking_assist_system_camera
+parking_assist_system_self-steering
+parking_assist_system_sensors_front
+parking_assist_system_sensors_rear
+passenger_side-airbag
+power_steering
+power_windows
+radio
+rain_sensor
 roof_rack
-Seat heating
-Seat ventilation
-Shift paddles
-Side airbag
-Ski bag
-Sliding door
-Sound system
-Sport package
-Sport seats
-Sport suspension
-Start-stop system
-Sunroof
-Television
-Tire pressure monitoring system
-Touch screen
-Traction control
-Traffic sign recognition
-Trailer hitch
-Voice Control
-Xenon headlights
+seat_heating
+seat_ventilation
+shift_paddles
+side_airbag
+ski_bag
+sliding_door
+sound_system
+sport_package
+sport_seats
+sport_suspension
+start_stop_system
+sunroof
+television
+tire_pressure_monitoring_system
+touch_screen
+traction_control
+traffic_sign_recognition
+trailer_hitch
+voice_control
+xenon_headlights
