@@ -1,0 +1,121 @@
+Modellizzare la struttura di una tabella per memorizzare tutti i dati
+riguardanti delle auto usate messe in vendita da un concessionario.
+Scrivete la struttura della tabella "auto" con le varie proprietà, tipi di dato e attributi in un file .txt e pushatelo sulla vostra repo. Aiutatevi con le slides per scegliere le giuste caratteristiche.
+
+
+
+
+
+
+
+auto
+
+make
+model  
+variant 
+body_type 
+first_registration 
+price 
+fuel_type 
+mileage 
+power type
+gear
+nr_of_doors 
+nr_of_seats
+vehicle_condition 
+body_color
+paintwork
+interior_color
+upholstery
+previous_owners
+had_accident
+guarantee
+service_history
+non_smoking_vehicle
+euro_emission_class
+particulate_filter
+description-
+
+
+               equipment 
+4wd-
+abs-
+Adaptive Cruise Control
+Adaptive headlights
+Air conditioning
+Air suspension
+Alarm system
+Alloy wheels
+Android Auto
+Apple CarPlay
+Armrest
+Automatic climate control
+Auxiliary heating
+Blind spot monitor
+Bluetooth
+CD player
+Central door lock
+Cruise control
+Daytime running lights
+Digital radio
+Disabled accessible
+Driver drowsiness detection
+Driver-side airbag
+Electric tailgate
+Electrical side mirrors
+Electrically adjustable seats
+Electrically heated windshield
+Electronic stability control
+Emergency brake assistant
+Emergency system
+Fog lights
+Hands-free equipment
+Heads-up display
+Heated steering wheel
+Hill Holder
+Immobilizer
+Isofix
+Keyless central door lock
+Lane departure warning system
+Leather steering wheel
+LED Daytime Running Lights
+LED Headlights
+Light sensor
+Lumbar support
+Massage seats
+MP3
+Multi-function steering wheel
+Navigation system
+Night view assist
+On-board computer
+Panorama roof
+Parking assist system camera
+Parking assist system self-steering
+Parking assist system sensors front
+Parking assist system sensors rear
+Passenger-side airbag
+Power steering
+Power windows
+Radio
+Rain sensor
+roof_rack
+Seat heating
+Seat ventilation
+Shift paddles
+Side airbag
+Ski bag
+Sliding door
+Sound system
+Sport package
+Sport seats
+Sport suspension
+Start-stop system
+Sunroof
+Television
+Tire pressure monitoring system
+Touch screen
+Traction control
+Traffic sign recognition
+Trailer hitch
+Voice Control
+Xenon headlights
